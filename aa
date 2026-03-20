@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+WEB_DIR="$ROOT_DIR/web"
+
+if [ ! -d "$WEB_DIR" ]; then
+  echo "web 目录不存在，无法启动。"
+  exit 1
+fi
+
+cd "$WEB_DIR"
+
+if [ ! -d "node_modules" ]; then
+  echo "正在安装依赖..."
+  npm_config_cache=/tmp/npm-cache npm install
+fi
+
+npm run dev

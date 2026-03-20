@@ -1,0 +1,48 @@
+{
+  "name": "web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/abril-fatface": "^5.2.7",
+    "@fontsource/allura": "^5.2.8",
+    "@fontsource/anton": "^5.2.7",
+    "@fontsource/bangers": "^5.2.8",
+    "@fontsource/bebas-neue": "^5.2.7",
+    "@fontsource/caveat": "^5.2.8",
+    "@fontsource/cinzel-decorative": "^5.2.8",
+    "@fontsource/dancing-script": "^5.2.8",
+    "@fontsource/great-vibes": "^5.2.8",
+    "@fontsource/kaushan-script": "^5.2.8",
+    "@fontsource/lobster": "^5.2.8",
+    "@fontsource/pacifico": "^5.2.7",
+    "@fontsource/permanent-marker": "^5.2.7",
+    "@fontsource/playfair-display": "^5.2.8",
+    "@fontsource/righteous": "^5.2.7",
+    "@fontsource/sacramento": "^5.2.8",
+    "@fontsource/satisfy": "^5.2.7",
+    "fabric": "^7.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/node": "^24.12.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.57.0",
+    "vite": "^8.0.1"
+  }
+}
